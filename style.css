@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background: url('https://wallpapers.com/images/hd/japan-night-city-photography-kfqpwwe6g9q06pap.jpg');
+    /* background: url('https://i.redd.it/059ri6oupr521.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.jokenpô {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.section-human {
+    margin: 30px 0;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-size: 75px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.1s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#rock {
+    background-color: #FF1493;
+}
+
+#paper {
+    background-color: rgb(240, 206, 162);
+}
+
+#scissors {
+    background-color: #1E90FF;
+}
+
+p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#human-score {
+    color: #FF1493;
+}
+
+#machine-score {
+    color: #1E90FF;
+}
