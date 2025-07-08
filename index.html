@@ -15,13 +15,25 @@
     <div class="jokenpô">
         <h1>JOKENPÔ</h1>
         <section class="section-human">
-            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
-            <button id="paper" onclick="playHuman('paper')">&#x1F590;</button>
-            <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+            <button class="your-game" id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button class="your-game" id="paper" onclick="playHuman('paper')">&#x1F590;</button>
+            <button class="your-game" id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
         </section>
+        <div class="choices">
+            <div class="your-choice">
+                <h2>Sua escolha:</h2>
+                <button class="choices-to-game" id="human-choice">&#x1F44A;</button>
+            </div>
+            <div class="machine-choice">
+                <h2>Escolha da Alexa:</h2>
+                <button class="choices-to-game" id="machine-choice">&#x1F590;</button>
+            </div>
+        </div>
+        <article>
             <p id="result"></p>
             <p>Sua pontuação: <span id="human-score">0</span></p>
             <p>Pontuação da Alexa: <span id="machine-score">0</span></p>
+        </article>
     </div>
 </body>
 <script src="./scripts.js"></script>

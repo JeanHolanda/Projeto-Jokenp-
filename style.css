@@ -37,7 +37,7 @@ h1 {
     gap: 15px;
 }
 
-button {
+.your-game {
     font-size: 75px;
     cursor: pointer;
     border: none;
@@ -63,6 +63,46 @@ button:active {
 
 #scissors {
     background-color: #1E90FF;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.your-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 50px 0 12px;
+}
+
+.machine-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.choices-to-game {
+    font-size: 40px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.1s ease-in-out;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
