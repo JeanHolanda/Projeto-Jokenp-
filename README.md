@@ -7,4 +7,4 @@
 <p>- CSS</p>
 <p>- JAVASCRIPT</p>
 <br>
-<img src="https://raw.githubusercontent.com/JeanHolanda/Projeto-Jokenp-/366b63d31da398d8e49117153ad6d16b29460d43/assets/Beige%20Minimalist%20New%20Website%20Launch%20Instagram%20Post.png" height= 700px>
+<img src="https://github.com/JeanHolanda/Projeto-Jokenp-/blob/main/assets/Peach%20Minimalist%20New%20Stock%20Online%20Notebook%20Mockup%20Instagram%20Post.png?raw=true" height= 800px>
